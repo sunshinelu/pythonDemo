@@ -21,3 +21,6 @@ jieba.load_userdict("D:/Workspace/PyCharm/pythonDemo/datasets/userdict.txt")
 sent2 = '在包含问题的所有解的解空间树中，按照深度优先搜索的策略，从根节点出发深度探索空间树。'
 wordlist4 = jieba.cut(sent)#精确分词
 print " | ".join(wordlist4)
+
+d = os.path.dirname(__file__)
+print d
