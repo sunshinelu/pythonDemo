@@ -7,3 +7,4 @@ x = "a"
 y = "b"
 print x
 print y
+print __file__
