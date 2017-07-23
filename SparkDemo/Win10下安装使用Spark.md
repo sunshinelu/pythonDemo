@@ -101,5 +101,6 @@ https://stackoverflow.com/questions/41353522/typeerror-builder-object-is-not-cal
 
 ### 4) spark-shell报错：在退出spark-shell的时候出现如下错误：ERROR ShutdownHookManager: Exception while deleting Spark temp dir: C:\Users\sunlu\AppData\Local\Temp\spark-de9c702e-0216-4029-b34b-20e14b2a63b0
 
-未解决，目前spark在windows系统下存在这个问题。不想看的话，就把log4j.properties中log的level设置为FATAL吧。
+【未解决】
+目前spark在windows系统下存在这个问题。不想看的话，就把log4j.properties中log的level设置为FATAL吧。
 【注意】在Spark使用结束时，务必使用 :quit 退出。否则将导致错误。
