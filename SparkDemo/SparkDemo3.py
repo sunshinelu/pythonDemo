@@ -15,3 +15,4 @@ spark = SparkSession.builder\
 
 # check spark version
 print(spark.version)
+
