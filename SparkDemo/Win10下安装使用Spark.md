@@ -38,6 +38,13 @@ https://stackoverflow.com/questions/34196302/the-root-scratch-dir-tmp-hive-on-hd
 
 ## 3 在PyCharm中配置Spark
 
+### 1).安装PyCharm和py4j
+
+    sudo pip install py4j
+
+
+### 2). 配置PyCharm
+
 打开PyCharm，创建一个Project。 然后选择“Run” ->“Edit Configurations” ->“Environment variables” 
 
 增加`SPARK_HOME`目录与`PYTHONPATH`目录。 
